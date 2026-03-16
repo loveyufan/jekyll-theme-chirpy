@@ -1,0 +1,11 @@
+{
+  "build": {
+    "env": {
+      "JEKYLL_ENV": "production",
+      "BUNDLE_WITHOUT": "development:test"
+    }
+  },
+  "installCommand": "bundle install",
+  "buildCommand": "bundle exec jekyll build",
+  "outputDirectory": "_site"
+}

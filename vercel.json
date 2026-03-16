@@ -1,11 +1,12 @@
 {
   "build": {
     "env": {
-      "JEKYLL_ENV": "production",
-      "BUNDLE_WITHOUT": "development:test"
+      "LANG": "en_US.UTF-8",
+      "LC_ALL": "en_US.UTF-8",
+      "JEKYLL_ENV": "production"
     }
   },
-  "installCommand": "bundle install",
+  "installCommand": "bundle install --path vendor/bundle",
   "buildCommand": "bundle exec jekyll build",
   "outputDirectory": "_site"
 }
